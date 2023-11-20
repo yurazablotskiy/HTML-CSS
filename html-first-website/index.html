@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML</title>
+</head>
+
+<body>
+  <center>
+    <h1>Мини веб сайт</h1>
+  </center>
+
+  <table>
+    <tr>
+      <td>
+        <img
+          src="https://skilsful.com/wp-content/uploads/2022/10/CoM-The-Ultimate-Front-End-Development-Bundle-1280x660-1.jpg"
+          width="600px">
+
+      </td>
+      <td>
+        <h3>Информация про <mark>изображение</mark>:</h3>
+        <hr>
+        <details>
+          <summary>Подробнее</summary>
+          Здесь ничего нет :(
+        </details>
+        <audio controls>
+          <source src="#" type="audio/ogg; codecs=vorbis">
+          Тег audio не работает в вашем браузере!
+        </audio>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <video width="700" height="360" controls="controls">
+          <source src="https://youtu.be/_R5a-Kc0pRc?list=PLDyJYA6aTY1nlkG0gBj96XDmDSC4Fy1TO">
+          Тег video не работает в вашем браузере!
+        </video>
+      </td>
+      <td>
+        <h3>Наши преимущества: </h3>
+        <ul>
+          <li>Крутые <a href="#"><i>цены;</i></a></li>
+          <li>Большой выбор;</li>
+          <li>Хорошие специалисты;</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+  <h2>Зарегистрироваться на событие:</h2>
+
+  <form action="#">
+    <label for="name">Имя</label>
+    <input type="text" name="name" placeholder="Введите имя"><br>
+    <label for="email">Email</label>
+    <input type="email" name="email" placeholder="Введите email"><br>
+    <label for="password">Пароль</label>
+    <input type="password" name="password" placeholder="Введите пароль"><br>
+    <label for="photo">Фото профиля</label>
+    <input type="file" name="file"><br>
+    <select name="experience" id="programming">
+      <option disabled selected>Опыт в программировании</option>
+      <option value="0">Нет опыта</option>
+      <option value="1">1 Год</option>
+      <option value="2">2 Год</option>
+      <option value="3">3 Год</option>
+    </select> <br>
+    <select multiple>
+      <option disabled>Любимый язык:</option>
+      <option value="PHP">PHP</option>
+      <option value="Phyton">Phyton</option>
+      <option value="Java">Java</option>
+    </select><br>
+    <input type="checkbox">
+    <label for="">Пользовательское соглашение</label>
+    <br>
+    <input type="submit" value="Отправить">
+    <input type="reset" value="Очистить">
+  </form>
+</body>
+
+</html>

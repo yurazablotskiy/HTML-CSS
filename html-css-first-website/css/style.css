@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(18, 66, 68);
+  padding-top: 35px;
+}
+
+.header-all {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+}
+
+header .header-all .header-logo {
+  color: rgb(129, 147, 106);
+  font-weight: 700;
+  display: inline;
+  margin-right: 330px;
+}
+
+header .header-all nav {
+  display: inline;
+}
+
+header .header-all nav ul {
+  list-style: none;
+  display: inline;
+}
+
+header .header-all nav ul li {
+  display: inline;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+header .header-all nav ul li:hover {
+  color: rgb(129, 147, 106);
+}
+
+header .header-all input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+}
+
+main {
+  margin-top: 50px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+}
+
+main .last-news,
+main .messages {
+  width: 60%;
+  height: 400px;
+  background-color: rgb(213, 233, 234);
+  border: 1px solid black;
+  padding: 40px;
+  color: rgb(129, 147, 106);
+}
+
+main .last-news p,
+main .messages p {
+  font-size: 14px;  
+}
+
+main .last-news img {
+  width: 300px;
+  margin-top: 40px;
+  margin-left: 170px;
+}
+
+main .messages {
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  padding: 10px;
+  right: 0;
+  top: 0;
+}
+
+footer {
+  margin-top: 50px;
+  width: 100%;
+  height: 170px;
+  background-color: rgb(18, 66, 68);
+  padding: 30px;
+}
+
+footer h2 {
+  text-align: center;
+  color: white;
+  font-weight: normal;
+}
+
+footer ul {
+  list-style: none;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 20px;
+  background-color: rgb(227, 137, 107);
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+footer ul li:hover {
+  background-color: rgb(210, 218, 226);
+}
+
+footer .li-2 {
+  background-color: rgb(136, 136, 220);
+}
+
+footer .li-3 {
+  background-color: rgb(77, 77, 185);
+}
+
+footer .li-4 {
+  background-color: rgb(209, 114, 82);
+}
+
+footer h4 {
+  color: white;
+  font-size: initial;
+  font-family: initial;
+}

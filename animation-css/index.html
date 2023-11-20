@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animations</title>
+  <style>
+    .img-container {
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    img {
+      width: 200px;
+      border: 4px solid rgb(181, 175, 175);
+      transform: skew(20deg);
+      box-shadow: -50px 50px 2px 1px rgba(180, 180, 184, 0.2);
+      transition: all 500ms ease;
+    }
+
+    img:hover {
+      transform: skew(0deg);
+      box-shadow: none;
+    }
+
+    .animation-container {
+      margin-top: 150px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    @keyframes circleToSquare {
+      0%,
+      100% {
+        border-radius: 50%;
+        transform: scale(1);
+        background-color: blue;
+      }
+
+      50% {
+        border-radius: 0;
+        transform: scale(1.5);
+        background-color: red;
+      }
+    }
+
+    .animation-container div {
+      width: 70px;
+      height: 70px;
+      background-color: blue;
+      border-radius: 50%;
+      animation: circleToSquare 6s infinite;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="img-container">
+    <img src="bridge-forest.jpg" alt="bridge-forest">
+    <img src="field.jpg" alt="field">
+    <img src="photograph.jpg" alt="photograph">
+  </div>
+
+  <div class="animation-container">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</body>
+
+</html>

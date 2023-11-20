@@ -1,0 +1,33 @@
+.cool-portfolio {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 600px;
+  background: url('https://a-z-animals.com/media/2022/03/shutterstock_1685753824.jpg') center center/cover no-repeat;
+}
+
+.cool-portfolio h1,
+.cool-portfolio p {
+  color: white;
+}
+
+.projects-team {
+  min-height: 300px;
+}
+
+.services {
+  min-height: 400px;
+  background-color: rgba(255, 0, 0, 0.616);
+  padding-bottom: 50px;
+}
+
+.services-column {
+  margin: 0 auto;
+}
+
+.new-website {
+  min-height: 400px;
+  background: url('https://cdn2.hexlet.io/assets/blog_promo-1dd16bc28d9a4aed4b07019a7934d27c258d6cf8ca53f803634fc38d1d406c57.png') center center/cover no-repeat;
+  display: flex;
+  align-items: center;
+}
